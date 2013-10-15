@@ -4,7 +4,7 @@ App::Unicheck::Modules::MySQL - App::Unicheck module to check mysql connections 
 
 # VERSION
 
-Version 0.01
+Version 0.02
 
 # SYNOPSIS
 

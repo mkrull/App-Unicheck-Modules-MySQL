@@ -15,11 +15,11 @@ App::Unicheck::Modules::MySQL - App::Unicheck module to check mysql connections 
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -67,7 +67,7 @@ sub reachable {
         'format=s' => \$format,
         'user=s' => \$user,
         'pass=s' => \$pass,
-        'database' => \$database,
+        'database=s' => \$database,
     );
 
     my $retval;

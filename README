@@ -3,7 +3,7 @@ NAME
     connections and servers.
 
 VERSION
-    Version 0.01
+    Version 0.02
 
 SYNOPSIS
     App::Unicheck::Modules::MySQL can be used to check server availability,
