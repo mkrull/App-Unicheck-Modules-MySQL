@@ -42,7 +42,7 @@
    "provides" : {
       "App::Unicheck::Modules::MySQL" : {
          "file" : "lib/App/Unicheck/Modules/MySQL.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -54,5 +54,5 @@
          "url" : "https://github.com/uninets/App-Unicheck-Modules-MySQL"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
