@@ -73,11 +73,11 @@ sub reachable {
     my $retval;
     my $conn_string = "dbi:mysql:database=$database;host=$host;port=$port";
     try {
-    	my $dbh = DBI->connect($conn_string, $user, $pass);
+    	my $dbh = DBI->connect($conn_string, $user, $pass, { RaiseError => 1 });
     	$retval = $self->_return(1, "Connection to $host:$port successful", $format);
     } catch {
     	$retval = $self->_return(0, $_, $format);
-    }
+    };
 
     $retval;
 }
